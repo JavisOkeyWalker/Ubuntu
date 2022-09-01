@@ -1,2 +1,1 @@
-echo "# Ubuntu" >> README.md
-git init
+Testing Git Clone feautre
