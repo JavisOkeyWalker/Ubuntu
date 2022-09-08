@@ -17,25 +17,25 @@ and push them (sync) with GitHub
 
 For each, write the command used or answer the question posed.
 
-1.adduser Bob
-2./home/Ubuntu
-3.
-4.
-5.
-6.
-7.
-8.
+1. sudo adduser bob
+2. /home/bob
+3. No, because bob is the owner and it was created under bobs account.
+4. su bob
+5. cd ~
+6. Yes, because it is his own directory with permissions only to him.
+7. exit
+8. cd ~
 
 ## Part 3 Answers
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. sudo addgroup crew
+2. sudo usermod -a -G crew bob
+3. sudo chgroup crew DirA
+4. su bob
+5. cd DirA ,  touch Bobsfile.txt
+6. This was succesful because the group crew has power to rwx in DirA, and bob is a member of the group crew.
 
 ## Part 4 Answers
 
