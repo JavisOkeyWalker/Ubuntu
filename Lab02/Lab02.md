@@ -41,9 +41,9 @@ For each, write the command used or answer the question posed.
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
+1. sudo touch sudowho.txt
+2. permissions of this file are only root can edit this file and root is the owner, other users can read the file.
+3. file can't be saved because user can is set to "readonly"
 
 ## Part 5 Answers
 
