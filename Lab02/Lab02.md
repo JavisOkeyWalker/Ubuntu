@@ -50,11 +50,14 @@ For each, write the command used or answer the question posed.
 1. `ssh` command before configuring `config` file: ssh -i 2350key.pem ubuntu@44.209.93.122
 2. HostName: 44.209.93.122
 3. User: Ubuntu
-4. IdentityFile: 
+4. IdentityFile: /home/javiswalker/2350key.pem
 5. `~/.ssh/config` contents:
 
 ```
-Paste your config file entry here
+Host aws
+HostName 44.209.93.122
+User ubuntu
+IdentityFile /home/javiswalker/2350key.pem
 ```
 
-6. `ssh` command after configuring `config` file:
+6. `ssh` command after configuring `config` file: ssh aws
