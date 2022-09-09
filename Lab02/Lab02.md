@@ -47,10 +47,10 @@ For each, write the command used or answer the question posed.
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file:
-2. HostName:
-3. User:
-4. IdentityFile:
+1. `ssh` command before configuring `config` file: ssh -i 2350key.pem ubuntu@44.209.93.122
+2. HostName: 44.209.93.122
+3. User: Ubuntu
+4. IdentityFile: 
 5. `~/.ssh/config` contents:
 
 ```
