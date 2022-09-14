@@ -17,7 +17,7 @@ and push them (sync) with GitHub
 
 For each, write the command used or answer the question posed.
 
-1.adduser Bob
+1.sudo adduser bob
 2./home/Ubuntu
 3.
 4.
