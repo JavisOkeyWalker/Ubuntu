@@ -19,9 +19,9 @@
 ## Part 5 Answers
 
 1. PATH ="$HOME/bin:PATH"
-2. /usr/local/bin
-3. Command: sudo vim TestFile
-   - Full path:/usr/local/bin/Testfile
+2. ."HOME/.bashrc"
+3. Command: 
+   - Full path:
 4. PATH =
    - Difference:
 5.
