@@ -25,5 +25,5 @@
 4. PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/files:/home/ubuntu/files:/home/ubuntu/files
    - Difference: /files added
 5. cp -R sorting-party /home/ubuntu/files
-6.
-7.
+6. chmod a+x sorting-party
+7. with the previous command used user+group+other is available to run the sorting-party script
