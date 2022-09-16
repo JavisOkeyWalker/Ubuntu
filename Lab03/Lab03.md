@@ -19,9 +19,9 @@
 ## Part 5 Answers
 
 1. PATH ="$HOME/bin:PATH"
-2.
-3. Command:
-   - Full path:
+2. /usr/local/bin
+3. Command: sudo mkdir TestFolder
+   - Full path:/usr/local/bin/TestFolder
 4. PATH =
    - Difference:
 5.
