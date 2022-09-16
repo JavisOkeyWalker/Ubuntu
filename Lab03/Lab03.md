@@ -12,7 +12,7 @@
 
 ## Script Usage Guide
 
-1. How to run: sourch sorting-party.sh
+1. How to run: ./sorting-party.sh
 2. What extensions are expected: .sh
 3. What is the output
 
