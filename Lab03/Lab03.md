@@ -18,7 +18,7 @@
 
 ## Part 5 Answers
 
-1. PATH =
+1. PATH ="$HOME/bin:PATH"
 2.
 3. Command:
    - Full path:
