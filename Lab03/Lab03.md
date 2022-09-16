@@ -24,6 +24,6 @@
    - Full path: $PATH:/home/ubuntu/files
 4. PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/files:/home/ubuntu/files:/home/ubuntu/files
    - Difference: /files added
-5.
+5. cp -R sorting-party /home/ubuntu/files
 6.
 7.
