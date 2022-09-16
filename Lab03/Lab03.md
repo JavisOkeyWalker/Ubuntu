@@ -20,8 +20,8 @@
 
 1. PATH ="$HOME/bin:PATH"
 2. /usr/local/bin
-3. Command: sudo mkdir TestFolder
-   - Full path:/usr/local/bin/TestFolder
+3. Command: sudo vim TestFile
+   - Full path:/usr/local/bin/Testfile
 4. PATH =
    - Difference:
 5.
