@@ -20,9 +20,9 @@
 
 1. PATH ="$HOME/bin:PATH"
 2. ."HOME/.bashrc"
-3. Command: 
-   - Full path:
-4. PATH =
+3. Command: vim ~/.bashrc 
+   - Full path: $PATH:/home/ubuntu/files
+4. PATH = 
    - Difference:
 5.
 6.
