@@ -18,9 +18,9 @@
 
 ## Part 5 Answers
 
-1. PATH =
-2.
-3. Command:
+1. PATH ="$HOME/bin:PATH"
+2. ."HOME/.bashrc"
+3. Command: 
    - Full path:
 4. PATH =
    - Difference:
