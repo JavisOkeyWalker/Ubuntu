@@ -18,7 +18,7 @@
 
 ## Part 5 Answers
 
-1. PATH ="$HOME/bin:PATH"
+1. PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu:/home/ubuntu:/home/ubuntu
 2. ."HOME/.bashrc"
 3. Command: vim ~/.bashrc 
    - Full path: $PATH:/home/ubuntu/files
