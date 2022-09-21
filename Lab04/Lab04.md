@@ -5,7 +5,7 @@
 
 ## Part 1 Answers
 
-1. `place your commands between backtick characters`
+1. `grep -P '[xX]\d{4}' grepdata.txt`
 2. `grep -i "ca" grepdata.txt`
 3. ` grep "@" grepdata.txt`
 4. `do this for rest of commands in lab`
