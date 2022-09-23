@@ -13,9 +13,9 @@
 ## Part 2 Answers
 
 1. sed '/html/d' sedfile.html > sedfile.md
-2. sed 's/<li>/- \\/g' sedfile.html > sedfile.md
-3. sed 's/<h1>/# \\/g' sedfile.html > sedfile.md
-4.
+2. sed 's/<li>/- /g' sedfile.html > sedfile.md
+3. sed 's/<h1>/# /g' sedfile.html > sedfile.md
+4. sed 's/<h2>/## /g' sedfile.html > sedfile.md
 5.
 6.
 
