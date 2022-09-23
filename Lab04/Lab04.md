@@ -12,9 +12,9 @@
 
 ## Part 2 Answers
 
-1.
-2.
-3.
+1. sed '/html/d' sedfile.html
+2. sed 's/<li>/- /g' sedfile.html > sedfile.md
+3. sed 's/<h1>/# /g' sedfile.html > sedfile.md
 4.
 5.
 6.
