@@ -12,12 +12,12 @@
 
 ## Part 2 Answers
 
-1. `sed '/<\/.*>/d' sedfile.html`
+1. `sed 's/<\/.*>//g' sedfile.html`
 2. `sed 's/<li>/- /g' sedfile.html`
 3. `sed 's/<h1>/# /g' sedfile.html`
 4. `sed 's/<h2>/## /g' sedfile.html`
-5.
-6.
+5. `sed 's/<.*>//g' sedfile.html`
+6. `sed 's/Batches/Matches/g' sedfile.html > sedfile.md`
 
 ## Part 3 Answers
 
