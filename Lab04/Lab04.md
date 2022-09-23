@@ -21,8 +21,8 @@
 
 ## Part 3 Answers
 
-1.
-2.
+1. `awk ' /Bil/{ print $1 }' records.txt`
+2. `awk '$4 ~ /42/{ print $3, "", $4 }' records.txt`
 3.
 4.
 5.
