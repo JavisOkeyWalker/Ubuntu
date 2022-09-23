@@ -1,6 +1,7 @@
+
 	# Regex cheat sheet
 
-	Special characters
+	## Special characters
 	
 		    - \ = Indicates that the following character should be treated specially, or "escaped"
 		        - ^ = Matches the beginning of input
@@ -10,7 +11,7 @@
 				        - x? = Matches the preceding item "x" 0 or 1 times
 	
 
-	Character classes
+	## Character classes
 
 	
 		    - \w = Matches any alphanumeric character from the basic Latin alphabet, including the underscore. Equivalent to [A-Za-z0-9_]
@@ -20,4 +21,5 @@
 				    - \s = Matches a single white space character, including space, tab, form feed, line feed, and other Unicode spaces
 				        - \S = Matches a single character other than white space.
 	
+
 
