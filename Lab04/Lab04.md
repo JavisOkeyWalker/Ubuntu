@@ -21,9 +21,10 @@
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
-5.
+1. `awk ' /Bil/{ print $1 }' records.txt`
+2. `awk '$4 ~ /42/{ print $3, "", $4 }' records.txt`
+3.  `awk '$3 ~ /wright.edu/{ print $2, "", $1,":", $3 }' records.txt`
+4. `awk '$3 ~ /wright.edu/ && $6 ~ /1234/ { print $2," Favorite number is: ", $4 }' reco
+rds.txt`
+5. `awk '{ sub($6, "N0T@PL@!NP@$$W0RD", $6) }1 ' records.txt > updaterecords.txt`
 
