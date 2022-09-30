@@ -1,0 +1,43 @@
+#!/bin/bash
+  		
+				
+printHelp() {
+       echo "Usage: namechange -f find -r replace: string to modify"
+       echo " -f The text to find in the filename"
+       echo " -r The replacement text for the new filename"	
+}
+
+ while getopts ":hf:r:" opt; do
+
+
+	case $opt in
+
+	h)   echo "Printing Help Guide"  
+		printHelp
+		exit
+		;;
+
+	f)   find=$OPTARG
+		;;
+
+	r)   replace=$OPTARG
+		;;
+	\?) 
+	     echo "Invalid option"
+	     echo "Here is a help guide:"
+	     printHelp
+	     ;;
+       esac
+     done
+
+     shift $((OPTIND-1))
+
+if [[ -e $@ ]];then
+   	echo "$@ exists"
+
+else
+	echo "User must provide valid file name"
+	printHelp
+	exit
+fi	
+
