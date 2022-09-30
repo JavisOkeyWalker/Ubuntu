@@ -13,6 +13,8 @@ Use good markdown so that this documentation is pretty and clean on GitHub.
 
 ` This script, is a script to check is a file exist that includes error, and can search and replace the errors.
 when calling the script with commands such as "  bash namechange -f "\s" -r "-" "hello world.txt" ". 
-it replaces the space with a "-" , making the file a "good" file. `
+it replaces the space with a "-" , making the file a "good" file called hello-world.txt with the error fixed.
+If the user puts in a file name that does not exist or no file name, the output will be "User must provide valid filename"
+and call a printHelp guide to assist the user. `
 
 
