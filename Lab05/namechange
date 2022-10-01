@@ -34,6 +34,9 @@ printHelp() {
 
 if [[ -e $@ ]];then
    	echo "$@ exists"
+	newfile=$(sed '$' | mv $@ $newfile)
+
+
 
 else
 	echo "User must provide valid file name"
