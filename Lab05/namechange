@@ -31,16 +31,16 @@ printHelp() {
      done
 
      shift $((OPTIND-1))
-
-if [[ -e $@ ]];then
+     filename=$1
+if [[ -e $filename ]];then
    	echo "$@ exists"
-	newfile=$(sed '$' | mv $@ $newfile)
-
-
-
+	newname=$(sed -e "s/$find/$replace/g" <<< $@)
+	mv "./$@" "./$newname"
+	echo "file has been changed"
 else
 	echo "User must provide valid file name"
 	printHelp
 	exit
-fi	
+fi
+ 
 
