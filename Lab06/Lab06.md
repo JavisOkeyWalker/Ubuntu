@@ -18,5 +18,5 @@
 
 ## Extra Credit - VM Manager
 
-- Windows Oracle Virtual Box
+- Windows Oracle Virtual Box 6.1.40
 
