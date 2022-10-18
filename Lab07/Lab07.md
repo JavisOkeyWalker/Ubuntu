@@ -35,12 +35,30 @@ To use the ISO on the VM:
 - Select boot to disk once you have booted KaliLinux and the option appears, after configuring the other settings.
 
 7. Steps to use full screen mode:
-
+- At the desktop click devices at the top
+- Then click "Insert Guest Additions CD image"
+- Configure CD image
+- Top of the desktop click view
+- Click Full Screen mode
+- press right ctrl+F to exit full screen mode.
 8. ![Screenshot of VM running](relative_path_to_image_filename_here)
 
 ## Part 2 Answers
 
 1. Steps to change desktop background.
+- Right CLick Desktop background
+- Click Desktop settings
+- Select new background under "Background" tab
+- Close
 2. Steps to open a web browser.
+- Click the Firefox icon when at desktop, firefox comes with this hypervisor.
 3. Steps to install VSCode.
+- On the virtual machine to to VS code download page
+- download the .deb file for linux
+- open terminal
+- type command "sudo apt install (file name)
+- Once installation is finished VS code can be opened from apps menu.
+
 4. Steps to connect to your AWS instance from your VM.
+- Copy private key into a file in VM terminal.
+- use ssh command to connect to aws instance.
