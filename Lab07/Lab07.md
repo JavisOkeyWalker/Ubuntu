@@ -29,10 +29,10 @@ To use the ISO on the VM:
 - For storage devices select the empty Controller: IDE and choose your ISO file to use.
 
 5. Steps to install your distribution:
-- To install the distribution you will click start on the VM and let the process install. 
+- To install the distribution you will click start on the VM to boot KaliLinux and let the process install. 
 
 6. Steps to boot to disk after install:
-- Select boot to disk once you have opened the VM and the option appears.
+- Select boot to disk once you have booted KaliLinux and the option appears, after configuring the other settings.
 
 7. Steps to use full screen mode:
 
