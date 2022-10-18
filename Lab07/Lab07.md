@@ -13,7 +13,7 @@
 - Choose the size of GB you would like to dedicate to the VM
 
 
-2. ![Screenshot of VM settings](Lab07-1.png)
+2. ![Screenshot of VM settings](images/Lab07-1.png)
 
 3. Steps to download an ISO:
 The ISO I chose to download was Kalilinux
