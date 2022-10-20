@@ -41,7 +41,7 @@ To use the ISO on the VM:
 - Top of the desktop click view
 - Click Full Screen mode
 - press right ctrl+F to exit full screen mode.
-8. ![Screenshot of VM running](relative_path_to_image_filename_here)
+8. ![Screenshot of VM running](images/Lab07-2.png)
 
 ## Part 2 Answers
 
