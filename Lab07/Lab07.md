@@ -50,8 +50,10 @@ To use the ISO on the VM:
 - Click Desktop settings
 - Select new background under "Background" tab
 - Close
+
 2. Steps to open a web browser.
 - Click the Firefox icon when at desktop, firefox comes with this hypervisor.
+
 3. Steps to install VSCode.
 - On the virtual machine to to VS code download page
 - download the .deb file for linux
@@ -60,5 +62,9 @@ To use the ISO on the VM:
 - Once installation is finished VS code can be opened from apps menu.
 
 4. Steps to connect to your AWS instance from your VM.
-- Copy private key into a file in VM terminal.
-- use ssh command to connect to aws instance.
+- In VM terminal cd into .ssh
+- vim the "config" file in .ssh
+- enter host information in config file and save
+- in home directory vim a private key file, copy private key into file, and save
+- use ssh command to connect to instance "ssh -i "PrivateKey.pem username@instanceIPaddress"
+
