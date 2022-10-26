@@ -28,15 +28,15 @@ I used this command, which removed the file but renamed it to 000000000000. Once
 
 ## Part 2 Answers
 
-1.
+1. vim original.txt
 2. For `original.txt` identify:
-   - Command to find the following info about `original.txt`:
-   - inode number of `original.txt`:
-   - number of blocks storing `original.txt`:
-   - number of links to `original.txt`:
-3. Command to create a hard link to `original.txt`:
-   - What identifiers indicate a hard link was created?
-   - Does modifying the hard linked file modify `original.txt`? Explain
+   - Command to find the following info about `original.txt`: stat original.txt
+   - inode number of `original.txt`: 513917
+   - number of blocks storing `original.txt`: 8
+   - number of links to `original.txt`: 1
+3. Command to create a hard link to `original.txt`: ln -v original.txt hardlink1
+   - What identifiers indicate a hard link was created? stat original.txt shows, numbers of links:2 instead of 1.
+   - Does modifying the hard linked file modify `original.txt`? Explain. Yes once I edited the text of the hardlinked file the text of the original file was changed also, because these files are now linked whatever changes are made to one, will be made to the other.
 4. Command to create a symbolic link to `original.txt`
    - What identifiers indicate a symbolic link was created?
    - If `original.txt` was deleted, and a new `original.txt` was created, would the sym link still work? Explain
