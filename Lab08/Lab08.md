@@ -37,12 +37,12 @@ I used this command, which removed the file but renamed it to 000000000000. Once
 3. Command to create a hard link to `original.txt`: `ln -v original.txt hardlink1`
    - What identifiers indicate a hard link was created? `stat original.txt shows, numbers of links:2 instead of 1.`
    - Does modifying the hard linked file modify `original.txt`? Explain. `Yes once I edited the text of the hardlinked file the text of the original file was changed also, because these files are now linked whatever changes are made to one, will be made to the other.`
-4. Command to create a symbolic link to `original.txt` ` ln -s original.txt symbolink.txt` 
-   - What identifiers indicate a symbolic link was created? `Can use the command ls -1 symbolink.txt and it shows symbolink -> original.txt`
-   - If `original.txt` was deleted, and a new `original.txt` was created, would the sym link still work? Explain `Yes, when original.txt is deleted and a new file is created with the same name the sym link will still be connected with the contents of the new file now inside.`
-5. Command to create a copy of `original.txt` `copy original.txt original2.txt`
-   - Does modifying the copied file modify `original.txt`? Explain `No, when using the copy command it copies the contents of the original file to a new file, but it is not linked, so whatever is done to the new file only happens to that new file. `
-6. Command to move `original.txt` to another directory.
+4. Command to create a symbolic link to `original.txt`: `ln -s original.txt symbolink.txt`
+   - What identifiers indicate a symbolic link was created?  `when using the command ls -l symbolink.txt , it shows symbolink.txt -> original.txt `
+   - If `original.txt` was deleted, and a new `original.txt` was created, would the sym link still work? Explain `Yes, when original.txt got deleted and I created a new one with new text inside it, the sym link reconnected and had its new content`
+5. Command to create a copy of `original.txt` ` cp original.txt original2.txt`
+   - Does modifying the copied file modify `original.txt`? Explain `No, because using the copy command just copies the content of the original file and puts it into a new one, it is not linked, so the changes made to the new file will only happen to the new file.`
+6. Command to move `original.txt` to another directory. `mv original.txt /Lab07.md`
    - Does it have the same inode? Explain
    - Was the hard link you created affected? Explain
    - Was the symbolic link you created affected? Explain
