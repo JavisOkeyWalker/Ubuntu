@@ -41,11 +41,11 @@ I used this command, which removed the file but renamed it to 000000000000. Once
    - What identifiers indicate a symbolic link was created?  `when using the command ls -l symbolink.txt , it shows symbolink.txt -> original.txt `
    - If `original.txt` was deleted, and a new `original.txt` was created, would the sym link still work? Explain `Yes, when original.txt got deleted and I created a new one with new text inside it, the sym link reconnected and had its new content`
 5. Command to create a copy of `original.txt` ` cp original.txt original2.txt`
-   - Does modifying the copied file modify `original.txt`? Explain `No, because using the copy command just copies the content of the original file and puts it into a new one, it is not linked, so the changes made to the new file will only happen to the new file.`
-6. Command to move `original.txt` to another directory. `mv original.txt /Lab07.md`
-   - Does it have the same inode? Explain
-   - Was the hard link you created affected? Explain
-   - Was the symbolic link you created affected? Explain
+   - Does modifying the copied file modify `original.txt`? Explain `No, because using the copy command just copies the content of the original file and puts it into a new one, it is not linked.`
+6. Command to move `original.txt` to another directory. `mv original.txt ~/Ubuntu/Lab07`
+   - Does it have the same inode? Explain `No, considering this is a new file it gets assigned a new inode, which serves as an ID for a file. `
+   - Was the hard link you created affected? `No, the hardlink was still connected to the original file made, the content of the file is still shown and accesible. `
+   - Was the symbolic link you created affected? Explain `Yes, the symbolic link file no longer exist now that the file is moved to a new directory, causing it to lose connection to the file. `
 
 ## Extra Credit Answers
 
