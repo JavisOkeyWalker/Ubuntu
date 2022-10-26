@@ -43,9 +43,9 @@ I used this command, which removed the file but renamed it to 000000000000. Once
 5. Command to create a copy of `original.txt` ` cp original.txt original2.txt`
    - Does modifying the copied file modify `original.txt`? Explain `No, because using the copy command just copies the content of the original file and puts it into a new one, it is not linked.`
 6. Command to move `original.txt` to another directory. `mv original.txt ~/Ubuntu/Lab07`
-   - Does it have the same inode? Explain `No, considering this is a new file it gets assigned a new inode, which serves as an ID for a file. `
-   - Was the hard link you created affected? `No, the hardlink was still connected to the original file made, the content of the file is still shown and accesible. `
-   - Was the symbolic link you created affected? Explain `Yes, the symbolic link file no longer exist now that the file is moved to a new directory, causing it to lose connection to the file. `
+   - Does it have the same inode? Explain ` No, because the inode acts as an ID for files, and because this is a new file, it has obtained a new inode number. `
+   - Was the hard link you created affected? Explain `No, the hardlink is still connected to the original file and has the contents. It is a special connection path to that specific file. `
+   - Was the symbolic link you created affected? Explain `Yes, once the file was moved the symbolic link file is no longer accesible, moving the file to a new directory has changed its path which ruined the connection to the original file. `
 
 ## Extra Credit Answers
 
