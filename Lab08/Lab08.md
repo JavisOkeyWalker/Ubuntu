@@ -23,7 +23,7 @@
 9. `sudo strings /dev/xvdb1`
 10. `sudo rm testfile.txt, sudo strings /dev/xvdbq. The file was not truly deleted and still is hidden on the system.`
 11. `sudo shred -zvu -n 3 testfile.txt
-I used this command, which removed the file but renamed it to 000000000000. Once I run the string command again a  000000000000xt.swp file appears.`
+I used this command, which removed the file but renamed it to 000000000000. Once I run the string command again a  000000000000xt.swp file appears, and the text of the file is now removed in the string.`
 12. `sudo umount /dev/xvdb1 , once the the partition is unmounted you can no longer interact with the files and folders.`
 
 ## Part 2 Answers
