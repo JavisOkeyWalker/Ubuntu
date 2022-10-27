@@ -52,6 +52,6 @@ I used this command, which removed the file but renamed it to 000000000000. Once
 Line added to `/etc/fstab`:
 
 ```
-Insert line here
+UUID="eff3c56b-c1bd-4fe1-852e-9ea8c2fe11ed" /mnt/expanse ext4 defaults,discard 0 0
 ```
 
