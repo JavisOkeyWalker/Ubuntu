@@ -10,12 +10,12 @@
 ## Part 2 Answers
 
 1. Getting started
-   - Command to find the PID:
-   - PID of "Terminal A":
-   - PID of "Terminal B":
+   - Command to find the PID: ps au
+   - PID of "Terminal A": 6945
+   - PID of "Terminal B": 7039
 2. Using `./` to run `infinity` in Terminal B
-   - PID of script:
-   - Command to kill script:
+   - PID of script: 4632
+   - Command to kill script: ctrl c
    - Effects of running the script:
 3. Using `source` to run `infinity` in Terminal B
    - PID of script:
