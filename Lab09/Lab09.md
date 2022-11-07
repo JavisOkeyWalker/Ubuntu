@@ -16,7 +16,7 @@
 2. Using `./` to run `infinity` in Terminal B
    - PID of script: 7098
    - Command to kill script: sudo kill 9 7098
-   - Effects of running the script:
+   - Effects of running the script: You cannot still use Terminal B while the script is still running.
 3. Using `source` to run `infinity` in Terminal B
    - PID of script: 7075
    - Command to kill the script: ctrl c
