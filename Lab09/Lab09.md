@@ -18,8 +18,8 @@
    - Command to kill script: ctrl c
    - Effects of running the script:
 3. Using `source` to run `infinity` in Terminal B
-   - PID of script:
-   - Command to kill the script:
+   - PID of script: 7075
+   - Command to kill the script: ctrl c
    - Effects of killing the script:
 4. Running `infinity` as a background job in Terminal B
    - Command to run script in background:
