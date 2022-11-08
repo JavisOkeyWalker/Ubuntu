@@ -28,11 +28,11 @@
    - Command to kill script via job id: kill %1
    - Effects of exiting terminal: No, because its specified to the terminal its in and once its closed the process stops running with it.
 5. Run `infinity` in a `screen` or `tmux` session
-   - Command(s) to run `infinity` in a screen session:
-   - Detach from `screen` / `tmux` session:
-   - Command to show `screen` / `tmux` sessions:
-   - Effects of exiting terminal:
-   - Command / steps to kill the `screen` / `tmux` session:
+   - Command(s) to run `infinity` in a screen session: tmux, ./infinity.sh
+   - Detach from `screen` / `tmux` session: Ctrl+B  D
+   - Command to show `screen` / `tmux` sessions: tmux ls
+   - Effects of exiting terminal: the tmux session is still running because it has not yet been killed.
+   - Command / steps to kill the `screen` / `tmux` session: tmux kill-session
 
 ## Part 3 Answers
 
