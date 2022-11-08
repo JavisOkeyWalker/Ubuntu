@@ -22,11 +22,11 @@
    - Command to kill the script: kill -INT 1338
    - Effects of killing the script: in order to kill this process, I had to kill the parent process to stop it from running.
 4. Running `infinity` as a background job in Terminal B
-   - Command to run script in background:
-   - Job ID of script:
-   - PID of script:
-   - Command to kill script via job id:
-   - Effects of exiting terminal:
+   - Command to run script in background: ./infinity.sh &
+   - Job ID of script: [1]+
+   - PID of script: 1440
+   - Command to kill script via job id: kill %1
+   - Effects of exiting terminal: No, because its specified to the terminal its in and once its closed the process stops running with it.
 5. Run `infinity` in a `screen` or `tmux` session
    - Command(s) to run `infinity` in a screen session:
    - Detach from `screen` / `tmux` session:
