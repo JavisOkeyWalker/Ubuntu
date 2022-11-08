@@ -36,10 +36,10 @@
 
 ## Part 3 Answers
 
-1.
-2.
-3.
-4.
+1. git branch updates
+2. git checkout updates
+3. vim infinity.sh
+4. git commit -a -m "new branch",   git push --set-upstream origin updates
 5. Confirmed?
 6.
 7.
