@@ -40,9 +40,9 @@
 2. git checkout updates
 3. vim infinity.sh
 4. git commit -a -m "new branch",   git push --set-upstream origin updates
-5. Confirmed?
-6.
-7.
-8.
-9. Confirmed?
-10.
+5. Confirmed? Yes
+6. git checkout main
+7. git merge updates
+8. git push
+9. Confirmed? yes
+10. git status
