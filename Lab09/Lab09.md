@@ -11,16 +11,16 @@
 
 1. Getting started
    - Command to find the PID: ps au
-   - PID of "Terminal A": 6945
-   - PID of "Terminal B": 7039
+   - PID of "Terminal A": 1250
+   - PID of "Terminal B": 1338
 2. Using `./` to run `infinity` in Terminal B
-   - PID of script: 7098
-   - Command to kill script: sudo kill 9 7098
+   - PID of script: 1376
+   - Command to kill script: kill 1376
    - Effects of running the script: You cannot still use Terminal B while the script is still running.
 3. Using `source` to run `infinity` in Terminal B
-   - PID of script: 7075
-   - Command to kill the script: ctrl c
-   - Effects of killing the script:
+   - PID of script: 1393
+   - Command to kill the script: kill -INT 1338
+   - Effects of killing the script: in order to kill this process, I had to kill the parent process to stop it from running.
 4. Running `infinity` as a background job in Terminal B
    - Command to run script in background:
    - Job ID of script:
