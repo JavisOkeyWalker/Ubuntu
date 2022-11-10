@@ -9,9 +9,9 @@
 
 ## Part 2 Answers
 
-1. Compiler:
-   - Location:
-   - Version:
+1. Compiler: C
+   - Location: /usr/bin/gcc
+   - Version: 7.5.0
 2. Command to compile: gcc -Wall -0 repeat repeat.c
 3. Command to run: ./repeat.c
 
