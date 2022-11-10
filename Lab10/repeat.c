@@ -2,8 +2,8 @@
 int main()
 {
 	    char userText[20];
-	        printf("Enter text: \n");
+	        printf("Enter Your Name: \n");
 		    scanf("%s", &userText);  
-		        printf("Text = %s",userText);
+		        printf("Hello, %s \n",userText);
 			    return 0;
 }
