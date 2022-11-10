@@ -12,8 +12,8 @@
 1. Compiler: C
    - Location: /usr/bin/gcc
    - Version: 7.5.0
-2. Command to compile: gcc -Wall -0 repeat repeat.c
-3. Command to run: ./repeat.c
+2. Command to compile: gcc -Wall -o repeat repeat.c
+3. Command to run: ./repeat
 
 - Add your compiled code to your Lab10 folder in GitHub
 
