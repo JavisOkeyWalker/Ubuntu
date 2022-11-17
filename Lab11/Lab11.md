@@ -18,8 +18,8 @@
 
 1. `tcpdump` command:
 
-   - How many packets were captured?
-   - Looking through the output, what traffic are you seeing?
+   - How many packets were captured? 584846 packets captured
+   - Looking through the output, what traffic are you seeing? 
 
 2. Fancy `tcpdump` command:
 
