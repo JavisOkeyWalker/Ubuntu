@@ -6,13 +6,13 @@
 ## Part 1 Answers
 
 1. Hostname of the device: ip-10-0-0-25
-2. MAC address of the NIC connected to the network: 
+2. MAC address of the NIC connected to the network: DA-C0-A6-61-DD-15
 3. IP address:  10.16.201.125
 4. Subnet mask: 255.255.0.0
 5. Gateway address: 10.16.0.1
-6. DHCP server address: 
-7. DNS server address:
-8. Public IP used for communications outside subnet: 
+6. DHCP server address: 192.168.151.44
+7. DNS server address: 130.108.128.200
+8. Public IP used for communications outside subnet: 130.108.104.23
 
 ## Part 2 Answers
 
