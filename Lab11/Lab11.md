@@ -24,7 +24,7 @@
 2. Fancy `tcpdump` command: `sudo tcpdump -vv -A -i eth0 host www.google.com`
 
 3. Capturing `google.com` traffic:
-   - Was there a difference in output from `curl` when using `http` or `https`? ` Both Curl outputs showed the html contents of google.com with no major difference. `
+   - Was there a difference in output from `curl` when using `http` or `https`? ` Both Curl outputs showed the html contents of google.com with https having more encrypted data.`
    - Was there a difference in packet content in `tcpdump` when using `http` or `https`? ` Yes, in the http dump there were 14 captured packets and 18 received, but in https there were 35 captures and 43 received. `
    - What caused the difference? `the https is more encrypted which causes more data to be moved. `
 4. Save capture to a file: ` sudo tcpdump -w facebook.pcap -A -i eth0 host www.facebook.com `
