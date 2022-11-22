@@ -33,9 +33,9 @@
 
 ## Part 3 Answers
 
-1. Command(s) to install `python3` and `pip3`:
-2. Run web server with `index.html` contents in your folder:
-3. Confirm content is being served:
+1. Command(s) to install `python3` and `pip3`: sudo apt install pyhton3 pip3
+2. Run web server with `index.html` contents in your folder: python3 -m http.server 9000
+3. Confirm content is being served: netsat -nl
    - Using `localhost`:
    - Using the system's private IP:
    - Using the system's public IP:
