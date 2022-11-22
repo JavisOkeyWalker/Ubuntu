@@ -19,7 +19,7 @@
 1. `tcpdump` command:
 
    - How many packets were captured? 274182 packets captured
-   - Looking through the output, what traffic are you seeing? 
+   - Looking through the output, what traffic are you seeing? Real-Time
 
 2. Fancy `tcpdump` command:
 
