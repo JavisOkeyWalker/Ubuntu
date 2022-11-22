@@ -16,7 +16,7 @@
 
 ## Part 2 Answers
 
-1. `tcpdump` command: tcpdump -i any
+1. `tcpdump` command: sudo tcpdump -i any
 
    - How many packets were captured? 274182 packets captured
    - Looking through the output, what traffic are you seeing? Real-Time
