@@ -36,12 +36,12 @@
 1. Command(s) to install `python3` and `pip3`: sudo apt install pyhton3, sudo apt install python-pip3
 2. Run web server with `index.html` contents in your folder: ` python3 -m http.server 9000 `
 3. Confirm content is being served:
-   - Using `localhost`: curl http://localhost:9000/
-   - Using the system's private IP:  curl http://127.0.0.1:9000/
-   - Using the system's public IP:  curl http://10.0.0.25:9000/
-4. What's playing?
-5. Command to show `LISTEN`ing processes:
-6. Command to `kill`:
+   - Using `localhost`: ` curl http://localhost:9000/ `
+   - Using the system's private IP: ` curl http://127.0.0.1:9000/ `
+   - Using the system's public IP: ` curl http://10.0.0.25:9000/ `
+4. What's playing? ` Rick Astley - Never Gonna Give You Up (Official Music Video) , found link in html `
+5. Command to show `LISTEN`ing processes: lsof -i -P -n
+6. Command to `kill`: ` kill 1662 `
 
 ## Extra Credit Answers
 
