@@ -21,7 +21,7 @@
    - How many packets were captured? 274182 packets captured
    - Looking through the output, what traffic are you seeing? Real-Time
 
-2. Fancy `tcpdump` command: wireshark
+2. Fancy `tcpdump` command: sudo tcpdump -vv -A -i eth0 host www.google.com
 
 3. Capturing `google.com` traffic:
    - Was there a difference in output from `curl` when using `http` or `https`?
