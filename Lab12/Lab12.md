@@ -1,16 +1,16 @@
 ## Lab 12
 
-- Name:
-- Email
+- Name: Javis Okey-Walker
+- Email: Okey-Walker.2@wright.edu
 
 ## Part 1 Answers:
 
 1. `tar` options:
-   - `-c `
-   - `-v`
-   - `-f`
-   - `-z`
-   - `-x`
+   - `-c  create a new archive `
+   - `-v  operate verbosely`
+   - `-f  use archive file or device archive`
+   - `-z  filter the arhcive through gzip `
+   - `-x  extract files from an archive`
 2. Command(s):
 
 ## Part 2 Answers:
