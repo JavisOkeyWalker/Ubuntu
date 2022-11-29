@@ -5,26 +5,26 @@
 
 ## Part 1 Answers
 
-1. Hostname of the device: ip-10-0-0-25
-2. MAC address of the NIC connected to the network: DA-C0-A6-61-DD-15
-3. IP address:  10.16.201.125
-4. Subnet mask: 255.255.0.0
-5. Gateway address: 10.16.0.1
-6. DHCP server address: 192.168.151.44
-7. DNS server address: 130.108.128.200
-8. Public IP used for communications outside subnet: 130.108.104.23
+1. Hostname of the device: `ip-10-0-0-25`
+2. MAC address of the NIC connected to the network: `DA-C0-A6-61-DD-15`
+3. IP address:  `10.16.201.125`
+4. Subnet mask: `255.255.0.0`
+5. Gateway address: `10.16.0.1`
+6. DHCP server address: `192.168.151.44`
+7. DNS server address: `130.108.128.200`
+8. Public IP used for communications outside subnet: `130.108.104.23`
 
 ## Part 2 Answers
 
-1. `tcpdump` command: sudo tcpdump -i any
+1. `tcpdump` command: `sudo tcpdump -i any`
 
-   - How many packets were captured? 274182 packets captured
-   - Looking through the output, what traffic are you seeing? Real-Time
+   - How many packets were captured? `274182 packets captured`
+   - Looking through the output, what traffic are you seeing? `Real-Time`
 
-2. Fancy `tcpdump` command: sudo tcpdump -vv -A -i eth0 host www.google.com
+2. Fancy `tcpdump` command: `sudo tcpdump -vv -A -i eth0 host www.google.com`
 
 3. Capturing `google.com` traffic:
-   - Was there a difference in output from `curl` when using `http` or `https`? ` Both Curl outputs showed the html contents of google.com with no major difference. `
+   - Was there a difference in output from `curl` when using `http` or `https`? ` Both Curl outputs showed the html contents of google.com with https having more encrypted data.`
    - Was there a difference in packet content in `tcpdump` when using `http` or `https`? ` Yes, in the http dump there were 14 captured packets and 18 received, but in https there were 35 captures and 43 received. `
    - What caused the difference? `the https is more encrypted which causes more data to be moved. `
 4. Save capture to a file: ` sudo tcpdump -w facebook.pcap -A -i eth0 host www.facebook.com `
@@ -33,14 +33,14 @@
 
 ## Part 3 Answers
 
-1. Command(s) to install `python3` and `pip3`: sudo apt install pyhton3, sudo apt install python-pip3
+1. Command(s) to install `python3` and `pip3`: `sudo apt install pyhton3, sudo apt install python-pip3`
 2. Run web server with `index.html` contents in your folder: ` python3 -m http.server 9000 `
 3. Confirm content is being served:
    - Using `localhost`: ` curl http://localhost:9000/ `
    - Using the system's private IP: ` curl http://127.0.0.1:9000/ `
    - Using the system's public IP: ` curl http://10.0.0.25:9000/ `
-4. What's playing? ` Rick Astley - Never Gonna Give You Up (Official Music Video) , found link in html `
-5. Command to show `LISTEN`ing processes: lsof -i -P -n
+4. What's playing? ` Rick Astley - Never Gonna Give You Up (Official Music Video) , found link in html content `
+5. Command to show `LISTEN`ing processes: `lsof -i -P -n`
 6. Command to `kill`: ` kill 1662 `
 
 ## Extra Credit Answers
