@@ -26,9 +26,9 @@
 
 ## Part 3 Answers:
 
-1.
-2.
-3.
+1. `sudo adduser ituser`
+2. ` ssh-keygen`
+3. 
 4.
 
 ## Part 4 Answers
