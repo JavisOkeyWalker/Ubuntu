@@ -21,7 +21,7 @@
    - `lls  Display local directory listing of either path or current directory if path is not specified. `
    - `put  Upload local-path and store it on the remote machine.`
    - `get  Retrieve the remote-path and store it on the local machine.`
-3. Command(s):
+3. Command(s): ` get tarTest archive.tar.gz `
 4. Command(s): `tar -xzvf archive.tar.gz `
 
 ## Part 3 Answers:
