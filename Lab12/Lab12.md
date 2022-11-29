@@ -11,7 +11,7 @@
    - `-f  use archive file or device archive`
    - `-z  filter the arhcive through gzip `
    - `-x  extract files from an archive`
-2. Command(s):
+2. Command(s): `tar -czvf folders.tar.gz tarTest`
 
 ## Part 2 Answers:
 
