@@ -15,7 +15,7 @@
 
 ## Part 2 Answers:
 
-1. Command:
+1. Command:  `sftp -i 2350key.pem ubuntu@44.209.93.122`
 2. `sftp` options:
    - `ls Display a remote directory listing of either path or the current directory if path is not specified. `
    - `lls  Display local directory listing of either path or current directory if path is not specified. `
