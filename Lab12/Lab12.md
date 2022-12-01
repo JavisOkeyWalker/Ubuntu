@@ -28,8 +28,8 @@
 
 1. `sudo adduser ituser`
 2. ` ssh-keygen`
-3. 
-4.
+3. ` ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5STloQjG5v0KekREuZA5K4SIO1DmQHKVloNF4z1X27cMXSvN5WxGpn9wUGH17g3cK0lHeBwPutmMAdofVy8oYz8F+HaQXdG+nEqh8d36HZwmzK4p9uknpatjuZRX89erKxhl1JoEi+ZsfhxIV2LDqO12210iAtGbgSnAgvoiS01XxuDoWXhzHxe1jmgdEXPdGMqnThCwwiYWnEJBxUcUL4NQxPZ8Blz7zhqJgfdiClRNAOvGXo81mhKrwDeKMI92LBzH8XtRqxUP6VvHLkX7/S+mef012cSAyeEr6ip434qc1Rze8PJ0DRwbfxfKBQ5RHrra+d6/7iSoe8G5ckiMznsu7bkLYcCjEaex4ibBuhIjCGbdQcbd5f/lVNoVd+3AZ8UKnUQ0hyJgvlzjJN1Vee1kz4OklNevWijg85IO67NJ6OVlJNMi4AJeQ/GzvJ/dijOIz6hrc7qYV9vQwEBnmrKb951vXkVjBV9LNKlwPMMIFFeoYSldLk+tqM6dpoRs= javiswalker@LAPTOP-QG6TCCSH `
+4.  ` ssh -i authorized_keys ituser@44.209.93.122 `
 
 ## Part 4 Answers
 
