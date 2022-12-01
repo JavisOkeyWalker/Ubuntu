@@ -28,7 +28,7 @@
 
 1. `sudo adduser ituser`
 2. ` ssh-keygen`
-3. ` Copied the pub key that was generated and put it in a file on the new users system. Edited my systems config file and added the new users information and full path to the identity file of the public key.`
+3. ` Copied the pub key that was generated and put it in a file on the new users system. Edited my systems config file and added the new users information and full path to the identity file of the public key on the new users system.`
 4.  ` ssh -i authorized_keys ituser@44.209.93.122 `
 
 ## Part 4 Answers
