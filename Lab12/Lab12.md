@@ -37,17 +37,9 @@
    - Sample: `10.0.0.0 - 10.0.1.255` = `10.0.0.0/23` OR `10.0.1.0/23`
    - `130.108.0.0 - 130.108.255.255` = `130.108.0.0/16` 
    - `10.0.0.0 - 10.0.0.255` = `10.0.0.0/24`
-   - `your_public_ip - your_public_ip` = `10.16.201.125/16` OR `10.16.0.1/16`
+   - `your_public_ip - your_public_ip` = `10.16.201.125/32` OR `10.16.0.1/32`
 2. How you confirmed current rules are bad, and why are they bad. `This can be confirmed by seeing the systems security inbound rules, which says that all port ranges and Subnets are trusted. These rules are bad because it means it is completely open access for anyone to attempt to ssh into our system, which is a big security breach.`
 3. Your implementation details and **screenshot**
-4. Something invalid:
+4. Something invalid: `0.0.1.0`
 
-## Extra Credit Answers:
 
-### Solve the conflict
-
-1.
-2.
-3.
-4.
-5.
