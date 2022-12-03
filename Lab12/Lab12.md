@@ -39,7 +39,8 @@
    - `10.0.0.0 - 10.0.0.255` = `10.0.0.0/24`
    - `your_public_ip - your_public_ip` = `10.16.201.125/32` OR `10.16.0.1/32`
 2. How you confirmed current rules are bad, and why are they bad. `This can be confirmed by seeing the systems security inbound rules, which says that all port ranges and Subnets are trusted. These rules are bad because it means it is completely open access for anyone to attempt to ssh into our system, which is a big security breach.`
-3. Your implementation details and **screenshot** ![implementation](Images/InboundRules.png)
-4. Something invalid: `0.0.1.0`
+3. Your implementation details and **screenshot**
+![implementation](Images/InboundRules.png)
+4. Something invalid: `0.0.10`
 
 
