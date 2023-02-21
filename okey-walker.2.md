@@ -17,4 +17,6 @@ the flag "honest$cap" is found.
 Flag 9 & 10: changing directories to the "alike" directory, then running the `diff` command on 2 files to find the difference
 you will eventually find `diff echo-heeler bravo-corgi` returns no difference, meaning they are aliike. Flags: echo-heeler bravo-corgi
 
-Flag 11:
+Flag 11: First you run `./example_setuid.exe su root` , then `adduser airmancharles`, after setting a password to the user 
+airmancharles we can now `su airmancharles` in his directory we see a file name "charles.secret" run `cat charles.secret`
+and the flag "naturally$better" is found.
