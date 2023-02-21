@@ -13,3 +13,8 @@ you will find the file "bobs.secret", run `cat bobs.secret` you will find the fl
 Flag 8: from airmanjoe's home run `cd lost`, once in that directory you run the command `find * -size 503c` to search for
 a file that is 503 bytes. That command will show the path to the file that is 503 bytes. when running `cat file9`
 the flag "honest$cap" is found.
+
+Flag 9 & 10: changing directories to the "alike" directory, then running the `diff` command on 2 files to find the difference
+you will eventually find `diff echo-heeler bravo-corgi` returns no difference, meaning they are aliike. Flags: echo-heeler bravo-corgi
+
+Flag 11:
