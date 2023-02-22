@@ -45,7 +45,6 @@ the flag "honest$cap" is found.
 
 changing directories to the "alike" directory, then running the `diff` command on 2 files to find the difference
 you will eventually find `diff echo-heeler bravo-corgi` returns no difference, meaning they are aliike. Flags: echo-heeler bravo-corgi
-
 ---
 
 # Flag 11: 
