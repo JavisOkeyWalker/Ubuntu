@@ -15,7 +15,7 @@ CVE-2020-9054 : improper input validation in username parameter, leading to OS c
 
 My personal Experience with CWE-20 is, when doing a Web Development project, I was creating a site that required a username, password, and email to continue to the next page, however my program did not require to check that the email paramter was in an email format or for malicious input, which means any input was able to be inserted into those parameters. With any input being valid to insert into the paramter, this can lead to many weaknesses, and vulnerability oppurtunities for my website. A hacker could easily effect my site if they wanted too, due to not requiring proper valid inputs.     
 
-To fix this issue of not requiring proper input validation, I could first make sure all required information such as an email, is in an email format. For the other inputs such as username and password, there is a function in php that can check and prevent harmful injections in each parameter.
+To fix this issue of not requiring proper input validation, I could first make sure all required information such as an email, is in an proper email format. For all the input paramters, there is a function in php that can check and prevent harmful injections in each parameter. With this function any "strange" characters detected will be automatically changed. Taking these steps, could have removed those weaknesses in my website code.
 
 
 
