@@ -57,6 +57,27 @@ I learned how to used the `find` command to search for files with exact user own
 
 # Bandit 7-8:     
 
+Once I logged into bandit7 I used `grep millionth data.txt` to search the file data.txt for the word millionth, which revelaed the password.    
+
+Password: TESKZC0XvTetK0S9xNwm25STk5iWrBvP    
+
+I learned how to use the `grep` command to search a file for specific text.     
+
+# Bandit 8-9:     
+
+Once i logged into bandit8 I used `cat data.txt | sort | uniq -u` which reads through the data.txt, sorts, and shows only unique lines.    
+
+Password: EN632PlfYiZbn3PhVK3XOGSlNInNE00t     
+
+I learned how to use the `sort` and `uniq` commands to search for unique lines.     
+
+# Bandit 9-10:   
+
+
+
+
+
+
 
 
 
