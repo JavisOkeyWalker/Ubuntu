@@ -71,7 +71,17 @@ Password: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
 I learned how to use the `sort` and `uniq` commands to search for unique lines.     
 
-# Bandit 9-10:   
+# Bandit 9-10:    
+
+Once I logged into bandit9 I used `strings data.txt | grep -E "=+"` which searches for strings with extended patterns containg "=" in data.txt, and revealed the password.     
+
+Password: G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s     
+
+I learned how to use the `strings` command mixed with `grep` and regex to search a file for specific string patterns.   
+
+# Bandit 10-11:    
+
+
 
 
 
