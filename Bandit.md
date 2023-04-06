@@ -29,7 +29,34 @@ Once logged into bandit3 I used `ls` then switch to the inhere directory by usin
 
 Password: 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe     
 
-I learned you have to use `ls -lah` to show all files including hidden ones.
+I learned you have to use `ls -lah` to show all files including hidden ones.   
+
+# Bandit 4-5:   
+  
+Once logged into bandit4 I used `cd inhere` to enter the inhere directory. once in the directory I ran a `cat ./-file**` through each file to find the human readable file once I used `cat ./-file07` I found the password.   
+
+Password: lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR   
+
+I learned to use `./` to read files beggining with special characters.    
+
+# Bandit 5-6:    
+
+Once I logged into bandit5 I used `cd inhere` once in the directory I used ` find . -size 1033c` to search for a file exactly 1033 bytes in size. Once I got the path I `cat ./maybehere07/.file2 ` to find the password.    
+
+Password: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU    
+
+I learned how to search for exact file size using the `find` command.    
+
+# Bandit 6-7:     
+
+Once I logged into bandit6 I used `find / -user bandit7 -group bandit6 -size 33c` to search for a file with the exact properties of owned by user bandit7, group bandit6, and 33 bytes in size. Once reading through the output I found a path leading to the file with those properties, so I ran `cat /var/lib/dpkg/info/bandit7.password` , which reveleaed the password.
+
+Password: z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S    
+
+I learned how to used the `find` command to search for files with exact user ownership, group ownership, and size.     
+
+# Bandit 7-8:     
+
 
 
 
