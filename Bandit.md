@@ -81,6 +81,16 @@ I learned how to use the `strings` command mixed with `grep` and regex to search
 
 # Bandit 10-11:    
 
+Once I logged into bandit10 I used `base64 -d data.txt` which decodes data.txt base64 text data, which revealed the password.    
+
+Password: 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM     
+
+I learned how to use `-d` option with the `base64` command to decode base64 data in a file.     
+
+# Bandit 11-12:    
+
+
+
 
 
 
