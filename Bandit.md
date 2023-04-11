@@ -171,7 +171,27 @@ Password: hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
 
 I learned from this challenge what the `diff` command does and how to use it compare the difference between two files.   
 
-# Bandit 18-19:  
+# Bandit 18-19:   
+
+Once I ssh into level18 I immediately got signed out due to the modification in .bashrc . So instead of just normally trying to ssh into the system I ran ssh with a command at the end which when using ssh into the system the command is ran then immediately gets disconnected. I first used `ssh -p 2220 bandit18@bandit.labs.overthewire.org ls` to check if the readme is in the directory then I used `ssh -p 2220 bandit18@bandit.labs.overthewire.org cat readme` to view the contents of the readme, and the password to the next level was given.
+
+Password: awhqfNnAbc1naukrpqDYcF95h7HoMTrC   
+
+I learned from this challenge I learned its possible to execute a command through ssh, instead of just normally using it to log in.   
+
+# Bandit 19-20:  
+
+Once logged into bandit19 I used `ls` and seen the setuid binary, I used `ls -lah` to confirm permissions that bandit19 can execute. then I used `./bandit20-do whoami` to confirm when running the executable I am acting as the user bandit20. Once confirmed I ran `./bandit20-do cat /etc/bandit_pass/bandit20` to recieve the password of the next level.
+
+Password: VxCazJaVykI6W36BkBU0mJTCM8rR95XT   
+
+From this challenge I got a review on how an setuid binary executable works and how a file with an SUID will always execute as the filer owner.   
+
+# Bandit 20-21:   
+
+
+
+
 
 
 
