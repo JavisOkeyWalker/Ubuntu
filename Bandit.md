@@ -165,6 +165,16 @@ I learned from this challenge the functions of nmap and its flag -sV allowing me
 
 # Bandit 17-18:   
 
+Once accessed level 17 using `ls` I seen two files passwords.old passwords.new to find the only line that has been changed between the two files I ran the command `diff passwords.old passwords.new` which presented me with the password to the next level.   
+
+Password: hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg   
+
+I learned from this challenge what the `diff` command does and how to use it compare the difference between two files.   
+
+# Bandit 18-19:  
+
+
+
 
 
 
