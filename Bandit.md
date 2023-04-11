@@ -137,7 +137,17 @@ From this challenged I learned how to create the proper extension of a file base
     
 Password: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq    
 
-In this challenge I practiced accessing a system using ssh with its private key.
+In this challenge I practiced accessing a system using ssh with its private key.    
+
+# Bandit 14-15:    
+  
+Once logged into bandit14 I used the command  `nc localhost 30000` to connect to the localhost on port 30000, then following the instructions I put in the password for bandit14, which provided me with a message containing the password of the next level.
+
+Password: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt   
+
+In this challenge I practiced connecting to a specified port and host using netcat.
+  
+
  
  
  
