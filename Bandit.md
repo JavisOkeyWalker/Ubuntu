@@ -97,7 +97,8 @@ Once logged into bandit 11 I ran `cat data.txt` to output the rotated text. To d
  
  # Bandit 12-13:   
     
- Once logged into bandit 12 following the recommendations in the guide I created a directory in temp by running the command `mkdir /temp/lev12` after that I copied data.txt to that directory by running `cp data.txt /temp/lev12` then changed to that directory by running `cd /temp/lev12` and confirming data.txt is there by using `ls`. Once confirmed data.txt is in the directory I ran a command to reverse hex dump and output it to a new file called decode by using `xxd -r data.txt decode`
+ Once logged into bandit 12 following the recommendations in the guide I created a directory in temp by running the command `mkdir /temp/lev12` after that I copied data.txt to that directory by running `cp data.txt /temp/lev12` then changed to that directory by running `cd /temp/lev12` and confirming data.txt is there by using `ls`. Once confirmed data.txt is in the directory I ran a command to reverse hex dump and output it to a new file called decode by using `xxd -r data.txt decode` then I had to work on uncompressing the content of decode by checking the data type using `file decode` , then going through a repitive process of checking the file type, moving that file to its file type and decompressing that file over and over until it was a readable ascII file by using these commands:    
+ 
     
        
  Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
