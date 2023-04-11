@@ -131,7 +131,13 @@ Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
  
 From this challenged I learned how to create the proper extension of a file based on its file type, and also decompressing the file based on its type.   
  
- # Bandit 13-14:    
+ # Bandit 13-14:   
+ 
+ once logged into bandit13 there was a file in its directory called sshkey.private, I used `nano sshkey.private` and copied the contents of the file, remade the file on my personal system and pasted the RSA key into the file. I changed the permissions of the file to make sure it was proper executable permissions to ssh using the key by doing `chmod 700 sshkey.private` then I used the command `ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220` which granted access to bandit user 14. given the path provided in the directions I ran the command `cat /etc/bandit_pass/bandit14 ` which presented me with the password.
+    
+Password: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq    
+
+In this challenge I practiced accessing a system using ssh with its private key.
  
  
  
