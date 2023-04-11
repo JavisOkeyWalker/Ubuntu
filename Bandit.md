@@ -157,6 +157,17 @@ In this challenge I learned how to use openssl to establish a connection. I also
 
 # Bandit 16-17:   
 
+Once logged into bandit16 I used nmap to scan the network for open ports within the 31000-32000 range provided, to view which ports had an open SSL connection by using the command `nmap -sV localhost -p 31000-32000` which provided me 5 open ports with the ports 31518 31790 being tcp and open using the ssl service. using `openssl s_client -connect localhost:31790` established a connection and inputting the current levels password presented me with a private RSA key to get into the next level.   
+
+using the private key I was provide I ran the command `ssh -i bandit16.private bandit17@bandit.labs.overthewire.org -p 2220` to access the next level.  
+
+I learned from this challenge the functions of nmap and its flag -sV allowing me to do a service/version scan and the format to properly setup a nmap command to scan a port range. I also got to practice establishing a connection using the SSL service.   
+
+# Bandit 17-18:   
+
+
+
+
   
 
  
