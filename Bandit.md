@@ -189,7 +189,11 @@ From this challenge I got a review on how an setuid binary executable works and 
 
 # Bandit 20-21:   
 
-Once logged into bandit20 I used `ls` to see the setuid binary "suconnect" provided 
+Once logged into bandit20 I used `ls` to see the setuid binary "suconnect" provided. I ran `echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT' | nc -l -p 2222 &`  to echo the given password so suconnect can compare it, piping this command to netcat using the -l flag to listen and sends the password with -n flag to prevent new lines to port 2222. Then I used `./suconnect 2222` to activate the set binary executable to port 2222. Which presented me with the next password.
+
+Password: NvEJF7oVjkddltPSrdKEFOllh9V1IBcq   
+
+I learned from this challenge how to send a line to a connecting by piping it using netcat. I also got practice with performing functions with netcat such as the `&` function which allows the proccess to be ran in the background. 
  
 
 
