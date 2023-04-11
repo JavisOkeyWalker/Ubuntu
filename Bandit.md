@@ -123,11 +123,17 @@ file data8.bin
 mv data8.bin data8.gz   
 gzip -d data8.gz   
 file data8    
-cat data8, which finally revealed the uncompressed message containing the password.
+cat data8, which finally revealed the uncompressed message containing the password.    
 
   
        
- Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw     
+ 
+From this challenged I learned how to create the proper extension of a file based on its file type, and also decompressing the file based on its type.   
+ 
+ # Bandit 13-14:    
+ 
+ 
  
 
 
