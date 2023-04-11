@@ -1,3 +1,6 @@
+# Name: Javis Okey-Walker
+
+
 # Bandit Level 0-1:
 
 I used `ls` then `cat readme`    
