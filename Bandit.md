@@ -189,6 +189,8 @@ From this challenge I got a review on how an setuid binary executable works and 
 
 # Bandit 20-21:   
 
+Once logged into bandit20 I used `ls` to see the setuid binary "suconnect" provided 
+ 
 
 
 
