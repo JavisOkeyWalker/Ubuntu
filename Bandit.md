@@ -141,11 +141,22 @@ In this challenge I practiced accessing a system using ssh with its private key.
 
 # Bandit 14-15:    
   
-Once logged into bandit14 I used the command  `nc localhost 30000` to connect to the localhost on port 30000, then following the instructions I put in the password for bandit14, which provided me with a message containing the password of the next level.
+Once logged into bandit14 I used the command  `nc localhost 30000` to connect to the localhost on port 30000, then following the instructions I put in the password for bandit14, which provided me with a message containing the password of the next level. I used netcat it allows to read/write data over a connection.
 
 Password: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt   
 
-In this challenge I practiced connecting to a specified port and host using netcat.
+In this challenge I practiced connecting to a specified port and host using netcat.    
+  
+# Bandit 15-16:   
+
+Once logged into bandit15 I used the command `openssl s_client -connect localhost:30001` and recieved a connected message, then entered the password of the current level to recieve the next levels password. I used openssl s_client because as in directions the connection was over a ssl encryption, and this allows me to connect using SSL/TLS.
+  
+Password: JQttfApK4SeyHwDlI9SXGR50qclOAil1   
+
+In this challenge I learned how to use openssl to establish a connection. I also learned how to properly format an openssl command to connect to a specified host and port.   
+
+# Bandit 16-17:   
+
   
 
  
