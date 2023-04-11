@@ -96,7 +96,11 @@ Once logged into bandit 11 I ran `cat data.txt` to output the rotated text. To d
  I learned how to use the `tr` command which translates or deletes characters. piping the cat data.txt output to the tr rule of "A-Za-z" "N-ZA_mn-zam-m" rotates the letters containing all Upper and Lower case 13 positions.    
  
  # Bandit 12-13:   
- 
+    
+ Once logged into bandit 12 following the recommendations in the guide I created a directory in temp by running the command `mkdir /temp/lev12` after that I copied data.txt to that directory by running `cp data.txt /temp/lev12` then changed to that directory by running `cd /temp/lev12` and confirming data.txt is there by using `ls`. Once confirmed data.txt is in the directory I ran a command to reverse hex dump and output it to a new file called decode by using `xxd -r data.txt decode`
+    
+       
+ Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
  
 
 
