@@ -88,6 +88,16 @@ Password: 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 I learned how to use `-d` option with the `base64` command to decode base64 data in a file.     
 
 # Bandit 11-12:    
+    
+Once logged into bandit 11 I ran `cat data.txt` to output the rotated text. To decode the text I ran the command ` cat data.txt | tr “A-Za-z” “N-ZA-Mn-za-m” ` which gave me the decoded text that contained the password.    
+   
+ Password: JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+ 
+ I learned how to use the `tr` command which translates or deletes characters. piping the cat data.txt output to the tr rule of "A-Za-z" "N-ZA_mn-zam-m" rotates the letters containing all Upper and Lower case 13 positions.    
+ 
+ # Bandit 12-13:   
+ 
+ 
 
 
 
