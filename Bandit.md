@@ -116,13 +116,16 @@ tar xvf data5.tar
 file data6.bin    
 mv data6.bin data6.bz2      
 bzip2 -d data6.bz2
-     
-   
+file data6   
+mv data6 data6.tar   
+tar xvf data6.tar   
+file data8.bin    
+mv data8.bin data8.gz   
+gzip -d data8.gz   
+file data8    
+cat data8, which finally revealed the uncompressed message containing the password.
+
   
-
-
- 
-    
        
  Password: wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
  
